@@ -10,8 +10,8 @@ using StuudentRegistrationApp.Models;
 namespace StuudentRegistrationApp.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    [Migration("20220228053246_InicialCreate")]
-    partial class InicialCreate
+    [Migration("20220228132711_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
